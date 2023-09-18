@@ -10,10 +10,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class RabbitMQProducer {
 
-    @Value("${rabbitmq.routing.key}")
+
+    @Value("${rabbitmq.routing.name}")
     private String routingKey;
-    @Value("${rabbitmq.queue.name}")
-    private String queue;
     @Value("${rabbitmq.exchange.name}")
     private String exchange;
 
