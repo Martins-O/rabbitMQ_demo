@@ -17,7 +17,7 @@ public class RabbitMQConfiguration {
     @Value("${rabbitmq.exchange.name}")
     private String exchange;
 
-    @Value("${rabbitmq.binding.name}")
+    @Value("${rabbitmq.routing.name}")
     private String binding;
 
     @Bean

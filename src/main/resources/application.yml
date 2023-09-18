@@ -10,5 +10,5 @@ rabbitmq:
     name: configure
   exchange:
     name: configure_exchange
-  binding:
+  routing:
     name: configure_routing_key
