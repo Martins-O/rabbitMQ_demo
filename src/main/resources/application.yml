@@ -12,3 +12,8 @@ rabbitmq:
     name: configure_exchange
   routing:
     name: configure_routing_key
+  json:
+    queue:
+      name: configure_json
+    routing:
+      name: configure_json_routing_key
